@@ -1,0 +1,203 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.serverstitle {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.connections-title1 {
+    text-align: center;
+    left: 280px;
+    font-size: 45px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: black;
+}
+
+.connections {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 250px;
+    left: 650px;
+    background-color: tan;
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    color: black;
+}
+
+.connections-discord {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 200px;
+    right: 440px;
+    width: 25%;
+    height: 500px;
+    justify-content: center;
+    color: black;
+}
+
+.connections-discordjoin1 {
+    position: absolute;
+    top: 29%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: black;
+}
+
+.connections-discordjoin2 {
+    position: absolute;
+    top: 32%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+}
+
+.connections-steam {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 220px;
+    right: 200px;
+    width: 25%;
+    height: 500px;
+    justify-content: center;
+    color: black;
+}
+
+.connections-steamjoin1 {
+    position: absolute;
+    top: 29%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: black;
+}
+
+.connections-steamjoin2 {
+    position: absolute;
+    top: 32%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+}
+
+.otherstitle {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#title1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: 75px;
+}
+
+#serverembed {
+    display: flex; 
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.topbar {
+    text-align: center;
+    display: block;
+    padding: 15px;
+    background-color: gray;
+    border: 10px inset gray;
+    position: absolute;
+    width: 100%;
+    height: 2%;
+    bottom: 860px;
+}
+
+.topbar-item1 {
+    text-align: center;
+    display: block;
+    background-color: brown;
+    border: 10px outset brown;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.topbar-item2 {
+    text-align: center;
+    display: block;
+    background-color: brown;
+    border: 10px outset brown;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: 150px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.topbar-item3 {
+    text-align: center;
+    display: block;
+    background-color: brown;
+    border: 10px outset brown;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: 280px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.topbar-item-clicked {
+    border: 10px inset brown;
+}
+
+.topbar-item1:hover {
+    opacity: 0.6;
+}
+
+.topbar-item1:active {
+    border: 10px inset brown;
+}
+
+.topbar-item2:hover {
+    opacity: 0.6;
+}
+
+.topbar-item2:active {
+    border: 10px inset brown;
+}
+
+.topbar-item3:hover {
+    opacity: 0.6;
+}
+
+.topbar-item3:active {
+    border: 10px inset brown;
+}
+
+#wtEmbedCode {
+position: relative;
+top: 50px;
+}
