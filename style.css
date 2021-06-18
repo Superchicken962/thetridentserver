@@ -206,6 +206,28 @@ body {
 }
 
 #wtEmbedCode {
-position: relative;
-top: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.load_circle {
+    border: 16px solid rgb(92, 92, 92);
+    border-top: 16px solid #1debfa;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: loadanim 1.5s linear infinite;
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+}
+
+@keyframes loadanim {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.load_circle_txt {
+    text-align: center;
+    color: black;
 }
